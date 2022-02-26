@@ -1,0 +1,14 @@
+{
+	"name": "Mod Hider",
+	"description": "Hides Mods",
+	"author": "pwn",
+	"contact": "N/A",
+	"version": "2",
+	"blt_version" : 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "ModHider.lua"
+		}
+	]
+}
